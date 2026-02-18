@@ -1,0 +1,17 @@
+# BEGIN CODEX-SQUAD
+[agents.squad_worker]
+description = "General implementation agent for assigned work streams."
+config_file = "agents/squad_worker.toml"
+
+[agents.squad_planner]
+description = "Plan/spec/contracts and task decomposition with explicit dependencies."
+config_file = "agents/squad_planner.toml"
+
+[agents.squad_reviewer]
+description = "Review for correctness, security, regression risk, and missing tests."
+config_file = "agents/squad_reviewer.toml"
+
+[agents.squad_explorer]
+description = "Fast read-only codebase explorer for architecture and dependency mapping."
+config_file = "agents/squad_explorer.toml"
+# END CODEX-SQUAD

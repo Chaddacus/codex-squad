@@ -1,0 +1,4 @@
+model = "gpt-5.3-codex"
+model_reasoning_effort = "medium"
+sandbox_mode = "read-only"
+developer_instructions = "Follow global AGENTS.md policies. Map architecture, dependencies, and likely change points quickly. Highlight sequential bottlenecks vs parallelizable areas in concise handoff notes."
